@@ -1,0 +1,50 @@
+/* ページ全体の見た目 */
+body {
+  margin: 0;
+  padding: 24px;
+  background-color: #fff8e8;
+  color: #333;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* ゲームを囲む白い枠 */
+.container {
+  max-width: 550px;
+  margin: 30px auto;
+  padding: 30px 20px;
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #e8753c;
+  font-size: 28px;
+}
+
+/* 方向ボタンの見た目 */
+.buttons {
+  margin: 24px 0;
+}
+
+button {
+  margin: 6px;
+  padding: 12px 18px;
+  border: none;
+  background-color: #ffd166;
+  color: #333;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffbb33;
+}
+
+/* 結果を表示する場所 */
+#result {
+  min-height: 100px;
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 1.8;
+}

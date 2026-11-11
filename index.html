@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>あっちむいてほい！</title>
+
+  <!-- CSSファイルを読み込む -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="container">
+    <h1>あっちむいてほい！</h1>
+
+    <p>指をさす方向を選んでね！</p>
+
+    <!-- 方向を選ぶボタン -->
+    <div class="buttons">
+      <button class="direction-button" data-direction="上">⬆️ 上</button>
+      <button class="direction-button" data-direction="下">⬇️ 下</button>
+      <button class="direction-button" data-direction="左">⬅️ 左</button>
+      <button class="direction-button" data-direction="右">➡️ 右</button>
+    </div>
+
+    <!-- 選んだ方向とゲームの結果を表示 -->
+    <div id="result" aria-live="polite">
+      あっちむいて〜？
+    </div>
+
+    <p>ボタンまたはキーボードの方向キーで遊べるよ！</p>
+  </main>
+
+  <!-- jQueryを先に読み込み、その後にJavaScriptファイルを読み込む -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
